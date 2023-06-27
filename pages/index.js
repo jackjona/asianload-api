@@ -9,7 +9,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
   //  const [consent, setConsent] = useState(false);
-  console.log(`%cVersion: 03062022`, `color:green`);
+  console.log(`%cVersion: 06-27-2023`, `color:green`);
 
   const handleSubmit = (e) => {
     setIsLoading(true);
@@ -201,8 +201,8 @@ export default function Home() {
       <footer
         className={
           !scrapedData.iframeURL
-            ? "flex justify-center border-t-4 fixed bottom-0 left-0 w-full mt-[30rem] text-center"
-            : "flex justify-center border-t-4 w-full mt-10 text-center"
+            ? "flex justify-center bg-white border-t-4 fixed bottom-0 left-0 w-full mt-[30rem] text-center"
+            : "flex justify-center bg-white border-t-4 w-full mt-10 text-center"
         }
       >
         <div className="px-6 pt-4">
