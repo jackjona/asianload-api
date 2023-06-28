@@ -9,7 +9,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
   //  const [consent, setConsent] = useState(false);
-  console.log(`%cVersion: 06-27-2023`, `color:green`);
+  console.log(`%cVersion: 1.0.0`, `color:green`);
 
   const handleSubmit = (e) => {
     setIsLoading(true);
